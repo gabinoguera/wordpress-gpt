@@ -4,16 +4,17 @@ Este proyecto tiene como objetivo utilizar la inteligencia artificial para gener
 Características principales:
 
 Generación automática de contenido: Utiliza la API de OpenAI para generar contenido basado en preguntas y respuestas relacionadas con un tema específico.
-Documento previo: Genera un documento previo en formato de texto sin formato para revisar y ajustar el contenido antes de su publicación en WordPress.
+
 Publicación en WordPress: Utiliza la API de WordPress para crear una nueva publicación con el contenido generado. Se puede especificar si se desea publicar como borrador o publicación inmediata.
+
 Configuración segura: Utiliza la librería python-dotenv para gestionar las credenciales y configuraciones sensibles en un archivo .env separado.
 
 Guía de uso
+
 Configuración del entorno:
 
-Instala las dependencias necesarias utilizando pip install -r requirements.txt.
-
 Crea un archivo .env con las variables de entorno necesarias, como las credenciales de WordPress.
+
 Preparación de los datos:
 
 Prepara un archivo CSV con las preguntas relacionadas con el tema deseado en una única columna titulada "title" y subelo al mismo directorio del proyecto
